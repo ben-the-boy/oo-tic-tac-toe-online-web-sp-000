@@ -66,7 +66,7 @@ class TicTacToe
         win_index_2 = combination[1]
         win_index_3 = combination[2]
         
-        
+        position_1 = @board
     end 
       
         
