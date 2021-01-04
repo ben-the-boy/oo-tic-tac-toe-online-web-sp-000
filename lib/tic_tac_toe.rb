@@ -38,6 +38,9 @@ class TicTacToe
     def valid_move?(index)
       @board[index] && !position_taken?(index)
     end
+    
+    def turn_count
+      
         
     
   
