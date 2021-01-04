@@ -108,8 +108,8 @@ class TicTacToe
     end 
     
     def play
-      until over?(board)
-        turn(board) 
+      until over?
+        turn 
       end
       if won?(board)
         winner(board) == "X" || winner(board) == "O"
@@ -117,7 +117,7 @@ class TicTacToe
       else draw?(board)
         puts "Cat\'s Game!"
       end
-end
+    end
       
         
     
