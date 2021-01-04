@@ -72,6 +72,7 @@ class TicTacToe
         
         if position_1 == position_2 && position_2 == position_3 && position_taken?(win_index_1)
           return combination
+        end
       end
     end 
       
