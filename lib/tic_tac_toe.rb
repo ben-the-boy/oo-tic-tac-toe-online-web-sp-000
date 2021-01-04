@@ -111,9 +111,9 @@ class TicTacToe
       until over?
         turn 
       end
-      if won?(board)
-        winner(board) == "X" || winner(board) == "O"
-        puts "Congratulations #{winner(board)}!"
+      if won?
+        winner == "X" || winner == "O"
+        puts "Congratulations #{winner}!"
       else draw?(board)
         puts "Cat\'s Game!"
       end
