@@ -74,6 +74,7 @@ class TicTacToe
           return combination
         end
       end
+      false 
     end 
       
         
